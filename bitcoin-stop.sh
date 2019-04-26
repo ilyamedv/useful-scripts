@@ -5,7 +5,7 @@ Day=`date +%d`
 Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
-logFileName="bitcoin-stop-$Year-$Month-$Day-$Hour-$Minute-$Second.log"
+logFileName="/home/pi/logs/bitcoin-stop-$Year-$Month-$Day-$Hour-$Minute-$Second.log"
 echo "start of log" &> $logFileName
 date &>> $logFileName
 
